@@ -9,11 +9,16 @@
         {% if books %}
             {% for book in books %}
                 <li>
-                    <a href="{{book-detail.get_absolute_url}}">{{book.title}} (Ratings: {{book.ratings}})</a>
+                    <a href="{{book.get_absolute_url}}">{{book.title}} (Ratings: {{book.rating}})</a>
                 </li>
             {% endfor %}
         {% else %}
             <h1>No Books</h1>
         {% endif %}
     </ul>
+
+<hr>
+
+  <p>Total Number Of Books: {{ total_number_of_books }}</p>
+  <p>Average Rating: {{ average_rating.rating__avg }}</p>
 {% endblock %}
