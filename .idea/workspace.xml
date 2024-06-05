@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fadc641-1baf-4d67-a155-fd667c1a5c89" name="Changes" comment="- Data and Models">
+    <list default="true" id="8fadc641-1baf-4d67-a155-fd667c1a5c89" name="Changes" comment="- Admin and Relationships">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book_outlet/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_outlet/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/book_outlet/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_outlet/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_outlet/templates/book_outlet/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/book_outlet/templates/book_outlet/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_store/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_store/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,12 +78,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717428995902</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="- Admin and Relationships">
+      <option name="closed" value="true" />
+      <created>1717514419524</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717514419525</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="- Data and Models" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Data and Models" />
+    <MESSAGE value="- Admin and Relationships" />
+    <option name="LAST_COMMIT_MESSAGE" value="- Admin and Relationships" />
   </component>
 </project>
